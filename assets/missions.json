@@ -1,0 +1,60 @@
+[
+  {
+    "eventDetails": {
+      "eventTitle": "Celtic Cup 2025",
+      "rulesFormat": "WTC",
+      "rulesFormatLink": "https://worldteamchampionship.com/wtc-rules/",
+      "numberOfRounds": "5",
+      "image": "attachment://celticCupLogo.jpg"
+    }
+  },
+  {
+    "rounds": [
+      {
+        "title": "Round 1 Celtic Cup",
+        "round": "One",
+        "missionDescription": "Terraform",
+        "image": "https://i.postimg.cc/JzpxTgtb/terraform.jpg",
+        "fields": {
+          "Deployment Map": "Crucible of Battle"
+        }
+      },
+      {
+        "title": "Round 2 Celtic Cup",
+        "round": "Two",
+        "missionDescription": "Lynchpin",
+        "image": "https://i.postimg.cc/d12CLHkT/linchpin.jpg",
+        "fields": {
+          "Deployment Map": "Search And Destroy"
+        }
+      },
+      {
+        "title": "Round 3 Celtic Cup",
+        "round": "Three",
+        "missionDescription": "Scorched Earth",
+        "image": "https://i.postimg.cc/4dkt4kds/scorched-Earth.jpg",
+        "fields": {
+          "Deployment Map": "Tipping Point"
+        }
+      },
+      {
+        "title": "Round 4 Celtic Cup",
+        "round": "Four",
+        "missionDescription": "Hidden Supplies",
+        "image": "https://i.postimg.cc/kG7b8QKL/hidden-Supplies.jpg",
+        "fields": {
+          "Deployment Map": "Search And Destroy"
+        }
+      },
+      {
+        "title": "Round 5 Celtic Cup",
+        "round": "Five",
+        "missionDescription": "Take and Hold",
+        "image": "https://i.postimg.cc/g068PkGJ/take-And-Hold.jpg",
+        "fields": {
+          "Deployment Map": "Crucible of Battle"
+        }
+      }
+    ]
+  }
+]
