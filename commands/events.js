@@ -16,7 +16,6 @@ const twinSwordsFluffyPack = new AttachmentBuilder(
   "assets/TTB Twin Swords - Fluffy.pdf",
 );
 
-const glasvegasPack = new AttachmentBuilder("assets/TournamentPack2025.pdf");
 const twinswordsImageLogo = new AttachmentBuilder("assets/twinswordsImage.png");
 
 const baseEmbed = new EmbedBuilder()
@@ -35,6 +34,10 @@ const twinswordsembed = new EmbedBuilder()
     { name: "Date of Event", value: "15/03/2026" },
     { name: "Time of Event", value: "09:00 AM" },
     {
+      name: "Location",
+      value: "Merchants Guild, 50 Albion St, Glasgow G1 1LH",
+    },
+    {
       name: "Best Coast Pairings Link",
       value: "https://web.bestcoastpairings.com/event/7ZQh3RQDPaSr",
     },
@@ -48,36 +51,20 @@ const twinSwordsFluffyEmbed = new EmbedBuilder()
   .addFields(
     { name: "Date of Event", value: "15/03/2026" },
     { name: "Time of Event", value: "09:00 AM" },
+    {
+      name: "Location",
+      value: "Merchants Guild, 50 Albion St, Glasgow G1 1LH",
+    },
   );
-
-// const glasvegasEmbed = new EmbedBuilder()
-//   .setTitle("Glasvegas 2026")
-//   .setDescription("Info for the January 2026 Event")
-//   .setThumbnail("attachment://twinswordsImage.jpg")
-//   .setColor("Purple")
-//   .addFields(
-//     { name: "Date of Event", value: "17/01/2026" },
-//     { name: "Time of Event", value: "09:00 AM" },
-//     { name: "Number of Rounds", value: "Three" },
-//     {
-//       name: "Best Coast Pairings Link",
-//       value: "https://web.bestcoastpairings.com/event/qEDlmK34LsVf",
-//     },
-//     {
-//       name: "Purchase Tickets",
-//       value:
-//         "https://reaper-wargaming-glasgow.sumupstore.com/product/glasvegas-open-winter-rtt-january-17th",
-//     },
-//   );
 
 const evnt1btn = new ButtonBuilder()
   .setCustomId("Twinswords competitive")
-  .setLabel("Twinswords Competitive 2026")
+  .setLabel("Twin Swords Competitive 2026")
   .setStyle(ButtonStyle.Primary);
 
 const evnt2btn = new ButtonBuilder()
   .setCustomId("Twinswords fluffy")
-  .setLabel("Twinswords Fluffy 2026")
+  .setLabel("Twin Swords Fluffy 2026")
   .setStyle(ButtonStyle.Primary);
 
 // const evnt3btn = new ButtonBuilder()

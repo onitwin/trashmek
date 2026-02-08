@@ -13,28 +13,28 @@
       {
         "title": "Round 1 Twin Swords Competitive",
         "round": "One",
-        "missionDescription": "Terraform",
-        "image": "https://i.postimg.cc/JzpxTgtb/terraform.jpg",
-        "fields": {
-          "Deployment Map": "Crucible of Battle"
-        }
-      },
-      {
-        "title": "Round 2 Twin Swords Competitive",
-        "round": "Two",
-        "missionDescription": "Lynchpin",
-        "image": "https://i.postimg.cc/d12CLHkT/linchpin.jpg",
+        "missionDescription": "Hidden Supplies",
+        "image": "https://i.postimg.cc/nhVKtKsh/twin_Swords_Round1.png",
         "fields": {
           "Deployment Map": "Search And Destroy"
         }
       },
       {
+        "title": "Round 2 Twin Swords Competitive",
+        "round": "Two",
+        "missionDescription": "Terraform",
+        "image": "https://i.postimg.cc/13WGRg6r/twin_Swords_Round2.png",
+        "fields": {
+          "Deployment Map": "Sweeping Engagement"
+        }
+      },
+      {
         "title": "Round 3 Twin Swords Competitive",
         "round": "Three",
-        "missionDescription": "Scorched Earth",
-        "image": "https://i.postimg.cc/4dkt4kds/scorched-Earth.jpg",
+        "missionDescription": "Linchpin",
+        "image": "https://i.postimg.cc/q7S2n91V/twin_Swords_Round3.png",
         "fields": {
-          "Deployment Map": "Tipping Point"
+          "Deployment Map": "Crucible of Battle"
         }
       }
     ]
