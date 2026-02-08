@@ -1,17 +1,17 @@
 [
   {
     "eventDetails": {
-      "eventTitle": "Celtic Cup 2025",
-      "rulesFormat": "WTC",
-      "rulesFormatLink": "https://worldteamchampionship.com/wtc-rules/",
-      "numberOfRounds": "5",
-      "image": "attachment://celticCupLogo.jpg"
+      "eventTitle": "Twin Swords - Competetive",
+      "rulesFormat": "UKTC",
+      "rulesFormatLink": "https://www.uktc.events/40k",
+      "numberOfRounds": "3",
+      "image": "attachment://twinswordsImage.png"
     }
   },
   {
     "rounds": [
       {
-        "title": "Round 1 Celtic Cup",
+        "title": "Round 1 Twin Swords Competitive",
         "round": "One",
         "missionDescription": "Terraform",
         "image": "https://i.postimg.cc/JzpxTgtb/terraform.jpg",
@@ -20,7 +20,7 @@
         }
       },
       {
-        "title": "Round 2 Celtic Cup",
+        "title": "Round 2 Twin Swords Competitive",
         "round": "Two",
         "missionDescription": "Lynchpin",
         "image": "https://i.postimg.cc/d12CLHkT/linchpin.jpg",
@@ -29,30 +29,12 @@
         }
       },
       {
-        "title": "Round 3 Celtic Cup",
+        "title": "Round 3 Twin Swords Competitive",
         "round": "Three",
         "missionDescription": "Scorched Earth",
         "image": "https://i.postimg.cc/4dkt4kds/scorched-Earth.jpg",
         "fields": {
           "Deployment Map": "Tipping Point"
-        }
-      },
-      {
-        "title": "Round 4 Celtic Cup",
-        "round": "Four",
-        "missionDescription": "Hidden Supplies",
-        "image": "https://i.postimg.cc/kG7b8QKL/hidden-Supplies.jpg",
-        "fields": {
-          "Deployment Map": "Search And Destroy"
-        }
-      },
-      {
-        "title": "Round 5 Celtic Cup",
-        "round": "Five",
-        "missionDescription": "Take and Hold",
-        "image": "https://i.postimg.cc/g068PkGJ/take-And-Hold.jpg",
-        "fields": {
-          "Deployment Map": "Crucible of Battle"
         }
       }
     ]

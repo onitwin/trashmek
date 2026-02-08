@@ -25,7 +25,7 @@ const missionCollection = roundsDetails.map((round, i) => {
   return new EmbedBuilder()
     .setTitle(round.title)
     .setDescription(round.missionDescription)
-    .setColor("Purple")
+    .setColor("Red")
     .setImage(round.image)
     .addFields({
       name: "Deployment Map",
@@ -33,7 +33,7 @@ const missionCollection = roundsDetails.map((round, i) => {
     });
 });
 
-const celticCupLogo = new AttachmentBuilder("assets/celticCupLogo.jpg");
+const twinswordsPic = new AttachmentBuilder("assets/twinswordsImage.png");
 
 //example button in isolation if needed
 // const r1btn = new ButtonBuilder()
@@ -47,7 +47,7 @@ const baseEmbed = new EmbedBuilder()
   .setTitle(eventDetails.eventDetails.eventTitle)
   .setDescription("MISSIONS")
   .setImage(eventDetails.eventDetails.image)
-  .setColor("Purple")
+  .setColor("Red")
   .addFields(
     { name: "Rules Format", value: eventDetails.eventDetails.rulesFormat },
     {
@@ -57,7 +57,7 @@ const baseEmbed = new EmbedBuilder()
     {
       name: "Select a round",
       value: `Select round 1-${missionLength}`,
-    }
+    },
   );
 
 module.exports = {
@@ -67,7 +67,7 @@ module.exports = {
   async execute(interaction) {
     const response = await interaction.reply({
       embeds: [baseEmbed],
-      files: [celticCupLogo],
+      files: [twinswordsPic],
       components: [buttonRow],
       flags: MessageFlags.Ephemeral,
       withResponse: true,
