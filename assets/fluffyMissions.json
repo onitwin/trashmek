@@ -1,0 +1,42 @@
+[
+    {
+        "eventDetails": {
+            "eventTitle": "Twin Swords - Fluffy",
+            "rulesFormat": "Games Workshop",
+            "rulesFormatLink": "https://www.warhammer-community.com/en-gb/downloads/warhammer-40000",
+            "numberOfRounds": "3",
+            "image": "attachment://twinswordsImage.png"
+        }
+    },
+    {
+        "rounds": [
+            {
+                "title": "Round 1 Twin Swords Competitive",
+                "round": "One",
+                "missionDescription": "Scorched Earth",
+                "image": "https://i.postimg.cc/PqY8tRpy/Scorched_Earth.png",
+                "fields": {
+                    "Deployment Map": "Tipping Point"
+                }
+            },
+            {
+                "title": "Round 2 Twin Swords Competitive",
+                "round": "Two",
+                "missionDescription": "Take and Hold",
+                "image": "https://i.postimg.cc/6qj8jsSM/Take_And_Hold.png",
+                "fields": {
+                    "Deployment Map": "Search and Destroy"
+                }
+            },
+            {
+                "title": "Round 3 Twin Swords Competitive",
+                "round": "Three",
+                "missionDescription": "Terraform",
+                "image": "https://i.postimg.cc/m2kzcDzJ/Terraform.png",
+                "fields": {
+                    "Deployment Map": "Crucible of Battle"
+                }
+            }
+        ]
+    }
+]
