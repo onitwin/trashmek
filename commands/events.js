@@ -12,11 +12,11 @@ const twinSwordsCompetitivePack = new AttachmentBuilder(
   "assets/TTB Twin Swords - Competetive.pdf",
 );
 
-const twinSwordsFluffyPack = new AttachmentBuilder(
-  "assets/TTB Twin Swords - Fluffy.pdf",
+const funeralPack = new AttachmentBuilder(
+  "assets/The Funeral of 10th Edition.pdf",
 );
 
-const twinswordsImageLogo = new AttachmentBuilder("assets/twinswordsImage.png");
+const funeralImage = new AttachmentBuilder("assets/funeral.jpeg");
 
 const baseEmbed = new EmbedBuilder()
   .setTitle("EVENTS")
@@ -43,23 +43,23 @@ const twinswordsembed = new EmbedBuilder()
     },
   );
 
-const twinSwordsFluffyEmbed = new EmbedBuilder()
-  .setTitle("Twin Swords Fluffy Event 2026")
+const funeralEmbed = new EmbedBuilder()
+  .setTitle("Funeral of 10th Edition")
   .setDescription("Info for the 2026 fluffy event")
-  .setThumbnail("attachment://twinswordsImage.png")
+  .setThumbnail("attachment://funeral.jpeg")
   .setColor("Red")
   .addFields(
-    { name: "Date of Event", value: "15/03/2026" },
-    { name: "Time of Event", value: "09:00 AM" },
+    { name: "Date of Event", value: "23/05/2026" },
+    { name: "Time of Event", value: "10 AM till 10 PM" },
     {
       name: "Location",
-      value: "Merchants Guild, 50 Albion St, Glasgow G1 1LH",
+      value: "4a, 12 Orton Pl, Glasgow G51 2HF",
     },
   );
 
 const evnt1btn = new ButtonBuilder()
-  .setCustomId("Twinswords competitive")
-  .setLabel("Twin Swords Competitive 2026")
+  .setCustomId("Funeral for 10th")
+  .setLabel("Funeral of 10th Edition")
   .setStyle(ButtonStyle.Primary);
 
 const evnt2btn = new ButtonBuilder()
@@ -72,16 +72,16 @@ const evnt2btn = new ButtonBuilder()
 //   .setLabel("Glasvegas Summer Series 2025")
 //   .setStyle(ButtonStyle.Primary);
 
-const buttonRow = new ActionRowBuilder().addComponents(evnt1btn, evnt2btn);
+const buttonRow = new ActionRowBuilder().addComponents(evnt1btn);
 
 module.exports = {
   data: new SlashCommandBuilder()
     .setName("events")
-    .setDescription(" Trash Bandits Events for 2026"),
+    .setDescription("Funeral of 10th Edition"),
   async execute(interaction) {
     const response = await interaction.reply({
       embeds: [baseEmbed],
-      files: [twinswordsImageLogo],
+      files: [funeralImage],
       flags: MessageFlags.Ephemeral,
       components: [buttonRow],
       withResponse: true,
@@ -95,10 +95,10 @@ module.exports = {
           time: 60_000,
         });
 
-      if (confirmation.customId === "Twinswords competitive") {
+      if (confirmation.customId === "Funeral for 10th") {
         await confirmation.update({
-          embeds: [twinswordsembed],
-          files: [twinSwordsCompetitivePack],
+          embeds: [funeralEmbed],
+          files: [funeralPack],
           flags: MessageFlags.Ephemeral,
           components: [],
         });
